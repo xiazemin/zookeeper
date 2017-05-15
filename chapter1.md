@@ -32,5 +32,13 @@ localhost:zookeeper-3.4.6 didi$ mkdir dataLog
 
 localhost:zookeeper-3.4.6 didi$ mkdir logs
 
+localhost:zookeeper-3.4.6 didi$ cd data
+
+localhost:data didi$ echo 1 &gt; myid
+
+localhost:data didi$ cat myid
+
+1
+
 
 
