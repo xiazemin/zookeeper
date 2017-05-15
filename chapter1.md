@@ -58,3 +58,19 @@ server.3=127.0.0.1:2890:3890
 
 ,那么每台机器都要不同的clientPort，比如我server1是2181,server2是2182，server3是2183，dataDir和dataLogDir也需要区分下。
 
+有一个灰常关键的设置，在每个zk server配置文件的dataDir所对应的目录下，必须创建一个名为myid的文件，其中的内容必须与zoo.cfg中server.x 中的x相同，即：
+
+
+
+/data/zookeeper/zServer1/data/myid 中的内容为1，对应server.1中的1
+
+
+
+/data/zookeeper/zServer2/data/myid 中的内容为2，对应server.2中的2
+
+/data/zookeeper/zServer3/data/myid 中的内容为3，对应server.3中的3
+
+
+
+
+
