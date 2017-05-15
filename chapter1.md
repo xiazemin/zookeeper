@@ -56,3 +56,5 @@ server.2=127.0.0.1:2889:3889
 
 server.3=127.0.0.1:2890:3890
 
+,那么每台机器都要不同的clientPort，比如我server1是2181,server2是2182，server3是2183，dataDir和dataLogDir也需要区分下。
+
