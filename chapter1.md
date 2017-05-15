@@ -46,9 +46,7 @@ localhost:data didi$ cat myid
 
 1
 
-在配置文件末尾加：
-
-
+在配置文件conf/zoo.cfg：
 
 在文件末尾添加如下内容：
 
