@@ -1,6 +1,4 @@
-# 链接
-
-
+# 连接
 
 localhost:bin didi$ ./zkCli.sh –server localhost:2183
 
