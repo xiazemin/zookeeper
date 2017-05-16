@@ -66,5 +66,35 @@ numChildren = 0
 
 从节点查看和删除
 
+\[zk: 127.0.0.1:2182\(CONNECTED\) 0\]  get /zk\_test
 
+junk
+
+cZxid = 0x200000005
+
+ctime = Tue May 16 09:40:24 CST 2017
+
+mZxid = 0x200000006
+
+mtime = Tue May 16 09:41:28 CST 2017
+
+pZxid = 0x200000005
+
+cversion = 0
+
+dataVersion = 1
+
+aclVersion = 0
+
+ephemeralOwner = 0x0
+
+dataLength = 4
+
+numChildren = 0
+
+\[zk: 127.0.0.1:2182\(CONNECTED\) 1\] delete /zk\_test
+
+\[zk: 127.0.0.1:2182\(CONNECTED\) 3\] ls /
+
+\[zookeeper\]
 
