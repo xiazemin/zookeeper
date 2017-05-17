@@ -4,49 +4,55 @@
 
 [http://zookeeper.majunwei.com/document/3.4.6/GettingStarted.html](http://zookeeper.majunwei.com/document/3.4.6/GettingStarted.html)
 
+http://www.w3cschool.cn/zookeeper/
+
 \[zk: 127.0.0.1:2183\(CONNECTED\) 1\] help
 
 ZooKeeper -server host:port cmd args
 
-	connect host:port
+```
+connect host:port
 
-	get path \[watch\]
+get path \[watch\]
 
-	ls path \[watch\]
+ls path \[watch\]
 
-	set path data \[version\]
+set path data \[version\]
 
-	rmr path
+rmr path
 
-	delquota \[-n\|-b\] path
+delquota \[-n\|-b\] path
 
-	quit
+quit
 
-	printwatches on\|off
+printwatches on\|off
 
-	create \[-s\] \[-e\] path data acl
+create \[-s\] \[-e\] path data acl
 
-	stat path \[watch\]
+stat path \[watch\]
 
-	close
+close
 
-	ls2 path \[watch\]
+ls2 path \[watch\]
 
-	history
+history
 
-	listquota path
+listquota path
 
-	setAcl path acl
+setAcl path acl
 
-	getAcl path
+getAcl path
 
-	sync path
+sync path
 
-	redo cmdno
+redo cmdno
 
-	addauth scheme auth
+addauth scheme auth
 
-	delete path \[version\]
+delete path \[version\]
 
-	setquota -n\|-b val path
+setquota -n\|-b val path
+```
+
+
 
